@@ -1,0 +1,12 @@
+include nav.jade
+
+h1 3rd Party API Web App
+p Enter a single GitHub username below and click to display their profile info via JSON.
+
+input(type='text', name='ghusername', id='ghusername', placeholder='GitHub username...')
+
+br
+br    
+button(href='#', id='ghsubmitbtn') Pull User Data
+
+#ghapidata(class='clearfix')

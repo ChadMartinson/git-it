@@ -1,0 +1,4 @@
+$.ajax
+  url: 'https://api.github.com/users/ChadMartinson'
+  success: (res) ->
+    $('#ghapidata').append templates.user(res)

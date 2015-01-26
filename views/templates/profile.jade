@@ -1,0 +1,12 @@
+h2 #{name}
+  span.smallname  ( @<a href='#{profile_url}' target='_blank'>#{login}</a> )</span>
+div.ghcontent
+  div.avi
+    a(href='html_url' target='_blank')
+      img(src='#{avatar_url}' width= '80' height='80' alt='#{login}')
+  p Followers: #{followers} - Following: #{followers}
+  br
+  p Repos: #{public_repos}
+div.repolist.clearfix
+  p
+    strong Repos List:

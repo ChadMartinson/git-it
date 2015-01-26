@@ -1,0 +1,14 @@
+if message == 'Not Found' || login == ''
+  h2 No user found.
+else
+ if name == undefined
+  - name = login;
+  h2= name
+  //-   span.smallname (@ a(href= '#{profileurl}' target='_blank'))
+  //- .ghcontent
+  //-   .avi
+  //-     a(href= '#{profileurl}' target="_blank")
+  //-       img(src= '#{aviurl}' class='avatar' alt= '#{name}')
+  //-   p Followers: #{followers} - Following: #{following}
+  //-   p Repos: #{public_repos}
+  //- .repolist.clearfix
