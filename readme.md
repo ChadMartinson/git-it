@@ -4,12 +4,13 @@
 
 ### Setup
 
-- make sure [node.js](http://nodejs.org) and [roots](http://roots.cx) are installed
+- make sure [node.js](http://nodejs.org) and [roots](http://roots.cx) are installed.
+- you can install roots by running 'npm install -g roots'
 - clone this repo down and `cd` into the folder
 - run `npm install`
 - run `roots watch`
 - ???
-- get money
+- hire this guy :)
 
 ### Deploying
 
